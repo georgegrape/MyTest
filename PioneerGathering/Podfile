@@ -1,0 +1,13 @@
+platform :ios, '7.0'
+target 'PioneerGathering' do
+pod 'AFNetworking'
+pod 'Masonry'
+pod 'SDWebImage'
+pod 'MBProgressHUD', '~> 0.9.1'
+pod 'MJRefresh'
+pod 'FMDB'
+pod 'UITableView+FDTemplateLayoutCell'
+pod 'NullSafe'
+pod 'Aspects'
+pod 'JSONModel'
+end

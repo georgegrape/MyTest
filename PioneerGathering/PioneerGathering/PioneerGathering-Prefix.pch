@@ -1,0 +1,58 @@
+//
+//  PioneerGathering-Prefix.pch
+//  PioneerGathering
+//
+//  Created by reneboy on 16/11/8.
+//  Copyright © 2016年 reneboy. All rights reserved.
+//
+
+#ifndef PioneerGathering_Prefix_pch
+#define PioneerGathering_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PioneerGathering_Prefix_pch */
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "PioneerGatheringDefine.h"
+
+//#import "ZYNavigationController.h"
+
+#import "UITableViewCell+HYBMasonryAutoCellHeight.h"
+#import "UIViewController+Universal.h"
+#import "NSString+Valid.h"
+#import "AppDelegate.h"
+
+#import "GQSTextAndImageView.h"
+#import "HYBLoopScrollView.h"
+#import "HYBPageControl.h"
+
+#import "UIScrollView+MJRefresh.h"
+#import "MJRefreshHeader.h"
+#import "MJRefresh.h"
+
+#import <MBProgressHUD.h>
+#import "UIViewController+HUD.h"
+
+#import "UIImageView+WebCache.h"
+#import "AFNetworking.h"
+#import "Masonry.h"
+
+#import "CYLHttpRequest.h"
+#import "DataManager.h"
+#import "NetWorkConst.h"
+#import "Util.h"
+
+#ifdef DEBUG  // 调试阶段
+#define GQSLog(...) NSLog(__VA_ARGS__)
+#else // 发布阶段
+#define GQSLog(...)
+#endif
+
+#define ABC 10
+
+#endif
