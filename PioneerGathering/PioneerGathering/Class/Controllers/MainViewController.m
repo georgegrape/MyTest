@@ -109,7 +109,7 @@
 //    loop.imageContentMode = UIViewContentModeScaleToFill;
 //    loop.imageContentMode = UIViewContentModeScaleAspectFill;
     
-    NSLog(@"size: %llu", [loop imagesCacheSize]);
+//    NSLog(@"size: %llu", [loop imagesCacheSize]);
     [loop clearImagesCache];
     
     UIView *mainAbilityView = [self mainAbilityView];
